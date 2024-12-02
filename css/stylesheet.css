@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul li{
+    list-style: none;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+/* header start */
+header{
+    padding: 10px 0 50px;
+}
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a img{
+    width: 117px;
+    position: relative;
+    top: 5px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin: 0 10px;
+}
+
+.menu li a{
+    color: #000;
+    font-size: 1rem;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+
+.menu li.active a{
+    font-weight: 700;
+}
+
+.menu li:hover a{
+    font-weight: 700;
+}
+
+.button a{
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #f78121;
+    padding: 10px 20px;
+    border: 1px solid #f78121;
+    border-radius: 5px;
+}
+
+.button:hover a{
+    color: #fff;
+    background-color: #f78121;
+}
+/* header end */
+
+
+/* banner start */
+.banner{
+    margin: 0 0 50px;
+}
+
+.banner-inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner-left{
+    flex-basis: 50%;
+}
+
+.bannerleft-inner{
+    width: 80%;
+    margin: 80px 0 0;
+}
+
+.bannerleft-inner h1{
+    width: 80%;
+    font-size: 2.938rem;
+    margin: 0 0 10px;
+}
+
+
+.bannerleft-inner h1 span{
+    color: #fd5926;
+}
+
+.bannerleft-inner p{
+    font-size: 1rem;
+    margin: 0 0 30px;
+    line-height: 22px;
+}
+
+.bannerleft-inner .button a{
+    background-color: #f78121;
+    color: #fff;
+}
+
+.bannerright-image{
+    flex-basis: 50%;
+}
+
+.bannerright-image img{
+    width: 100%;
+}
+/* banner end */
+
+
+/* service start */
+.service{
+    margin: 0 0 50px;
+}
+.service-top h1{
+    font-size: 1.875rem;
+    text-align: center;
+    width: 530px;
+    margin: 0 auto 40px;
+}
+
+.service-top h1 span{
+    color: #fd5926;
+}
+
+.service-bottom{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-bottom-inner{
+    flex-basis: 25%;
+    /* height: 200px; */
+    padding: 20px;
+    background-color: #ed4881;
+    /* margin: 0 20px 0 0; */
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.voilet{
+    background-color: #745dea;
+}
+
+.blue{
+    background-color: #37b8dc;
+}
+
+.yellow{
+    background-color: #f09837;
+}
+
+.sb-icon img{
+    width: 46px;
+    height: 46px;
+    margin: 0 0 20px;
+}
+
+.service-bottom-inner p{
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 500;
+
+}
+/* service end */
+
+/* inoovative start */
+.inoovative{
+    margin: 0 0 70px;
+}
+
+.inoovative-inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inoovative-left{
+    flex-basis: 50%;
+}
+
+.inoovative-left img{
+    width: 90%;
+}
+
+.inoovative-right{
+    flex-basis: 50%;
+}
+
+.inoovativeright-inner{
+    margin: 22px 0 0 40px;
+}
+
+.inoovativeright-inner h1{
+    font-size: 2.313rem;
+    width: 86%;
+    margin: 0 0 10px;
+}
+
+.inoovativeright-inner h1 span{
+    color: #fd5926;
+}
+
+.inoovativeright-inner p{
+    font-size: 1rem;
+    margin: 0 0 30px;
+    line-height: 22px;
+}
+
+.tow-buttons{
+    display: flex;
+}
+
+.primarybutton{
+    margin: 0 20px 0 0;
+}
+
+.primarybutton a{
+    background-color: #fd5926;
+    color: #fff;
+}
+/* inoovative end */
+
+
+/* Technology start */
+.technology{
+    margin: 0 0 70px;
+}
+
+.technology-inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.technology-left{
+    flex-basis: 50%;
+}
+
+.technology-left-inner{
+    margin: 15px 40px 0 0;
+}
+
+.technology-left-inner h1{
+    font-size: 2.313rem;
+    width: 65%;
+    margin: 0 0 10px;
+}
+
+.technology-left-inner h1 span{
+    color: #fd5926;
+}
+
+.technology-left-inner p{
+    font-size: 1rem;
+    margin: 0 0 30px;
+    line-height: 22px;
+}
+
+.watchvideo a{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.watchvideo a::before{
+    content: "";
+    background-image: url("../img/playbutton.png");
+    background-repeat: no-repeat;
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    left: 0;
+    margin: 0 10px 0 0;
+}
+
+.technology-right{
+    flex-basis: 50%;
+}
+
+.technology-right img{
+    width: 94%;
+    float: right;
+}
+/* Technology end */
+
+
+/* Expertise start */
+.expertise{
+    margin: 0 0 70px;
+    text-align: center;
+}
+
+.expertise-top-inner{
+    margin: 0 0 50px;
+    /* text-align: center; */
+}
+
+.expertise-top-inner h1{
+    font-size: 2.313rem;
+    width: 65%;
+    margin: 0 auto 10px;
+}
+
+.expertise-top-inner h1 span{
+    color: #fd5926;
+}
+
+.expertise-top-inner p{
+    font-size: 1rem;
+    line-height: 22px;
+    width: 62%;
+    margin: 0 auto 0;
+}
+
+.expertise-map{
+    width: 100%;
+    margin: 0 0 50px;
+}
+
+.expertise-map img{
+    width: 100%;
+}
+
+.expertise .button{
+    width: 100%;
+}
+
+.expertise .button a{
+    color: #fff;
+    background-color: #fd5926;
+    text-align: center;
+    margin: 0 auto;
+}
+/* xpertise end */
+
+
+/* managing start */
+.managing{
+    margin: 0 0 70px;
+}
+
+.managing-inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.managing-left{
+    flex-basis: 50%;
+}
+
+.managing-left-inner{
+    margin: 14px 40px 0 0;
+}
+
+.managing-left-inner h1{
+    font-size: 2.313rem;
+    width: 80%;
+    margin: 0 0 10px;
+}
+
+.managing-left-inner p{
+    font-size: 1rem;
+    line-height: 22px;
+    margin: 0 0 30px;
+}
+
+.managing-left-inner .button a{
+    color: #fff;
+    background-color: #fd5926;
+}
+
+.managing-right{
+    flex-basis: 50%;
+}
+
+.managing-right img{
+    width: 94%;
+    float: right;
+}
+/* managing end  */
+
+
+/* business start */
+.business-inner{
+    text-align: center;
+    background-color: #7531fa;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.business-inner h1{
+    font-size: 2.313rem;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+}
+
+.business-inner p{
+    font-size: 1rem;
+    color: #fff;
+    line-height: 22px;
+    width: 60%;
+    margin: 0 auto 30px;
+}
+
+.business-inner .button a{
+    background-color: #fd5926;
+    color: #fff;
+}
+/* business end */
+
+
+/* footer start */
+footer{
+    background-color: #000;
+}
+
+.footer-inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inner-footer{
+    flex-basis: 25%;
+    margin: 20px 0 0;
+}
+
+.inner-footer li.active a{
+    color: #fff;
+    margin: 0 0 15px;
+}
+
+.inner-footer li a{
+    color: #949494;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+}
+
+.inner-footer li:hover a{
+    color: #fff;
+}
+/* footer end */

@@ -1,0 +1,372 @@
+@media(min-width:992px) and (max-width:1199px){
+
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .container{
+        padding: 0 10px;
+    }
+    /* header start */
+    .logo a img{
+        width: 105px;
+    }
+    .menu li a{
+        font-size: 0.75rem;
+    }
+
+    .button a{
+        font-size: 0.875rem;
+    }
+    /* header end */
+
+    /* banner start */
+    .bannerleft-inner{
+        margin: 35px 0 0 ;
+        width: 90%;
+    }
+    .bannerleft-inner h1{
+        font-size: 1.5rem;
+    }
+
+    .bannerleft-inner p{
+        font-size: 0.75rem;
+    }
+
+    .button a{
+        font-size: 0.75rem;
+    }
+    /* banner end */
+
+
+    /* service start */
+    .service-top h1{
+        font-size: 1.5rem;
+        width: 50%;
+    }
+
+    .service-bottom-inner{
+        flex-basis: 50%;
+        margin: 0 0 20px;
+        height: 160px;
+    }
+
+    .sb-icon img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .service-bottom-inner p{
+        font-size: 1.25rem;
+    }
+    /* service end */
+
+
+    /* inoovative start */
+    .inoovative-left img{
+        width: 100%;
+    }
+
+    .inoovativeright-inner{
+        margin: 0 0 0 40px;
+    }
+
+    .inoovativeright-inner h1{
+        font-size: 1.5rem;
+    }
+
+    .inoovativeright-inner p{
+        font-size: 0.75rem;
+    }
+    /* inoovative end */
+
+
+    /* Technology start */
+    .technology-left-inner h1{
+        font-size: 1.5rem;
+    }
+
+    .technology-left-inner p{
+        font-size: 0.75rem;
+        margin: 0 0 20px;
+    }
+
+    .watchvideo a{
+        font-size: 0.75rem;
+    }
+
+    .technology-right img{
+        width: 100%;
+    }
+    /* Technology end */
+
+
+    /* Expertise start */
+    .expertise-top-inner h1{
+        font-size: 1.5rem;
+        width: 50%;
+    }
+
+    .expertise-top-inner p{
+        font-size: 0.75rem;
+        width: 70%;
+    }
+    /* Expertise end */
+
+
+    /* managing start */
+    .managing-left-inner h1{
+        font-size: 1.5rem;
+        width: 81%;
+    }
+
+    .managing-left-inner p{
+        font-size: 0.75rem;
+    }
+
+    .managing-right img{
+        width: 100%;
+    }
+    /* managing end */
+
+
+    /* business start */
+    .business-inner h1{
+        font-size: 1.5rem;
+    }
+
+    .business-inner p{
+        font-size: 0.75rem;
+        width: 70%;
+    }
+    /* business end */
+
+
+    /* footer start */
+    .inner-footer a img{
+        width: 100px;
+    }
+
+    .inner-footer li a{
+        font-size: 0.75rem;
+    }
+    /* footer end */
+}
+
+@media(min-width:320px) and (max-width:767px){
+    .container{
+        margin: 0 auto 0;
+        padding: 0 10px;
+    }
+    /* header start */
+    header{
+        display: none;
+    }
+    /* header end */
+
+    /* banner start */
+    .banner-left{
+        order: 2;
+        flex-basis: 100%;
+    }
+
+    .bannerleft-inner{
+        margin: 30px 0 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .bannerleft-inner h1{
+        font-size: 1.25rem;
+        margin: 0 auto 10px;
+        width: 100%;
+    }
+
+    .bannerleft-inner p{
+        font-size: 0.75rem;
+        line-height: 18px;
+        width: 90%;
+        margin:0 auto 20px ;
+    }
+
+    .button a{
+        font-size: 0.75rem;
+    }
+
+    .bannerright-image{
+        order: 1;
+        flex-basis: 100%;
+    }
+    /* banner end  */
+
+    /* service start */
+    .service-bottom-inner{
+        flex-basis: 100%;
+        margin: 0 0 10px;
+        height: 160px;
+    }
+
+    .service-top h1{
+        font-size: 1.25rem;
+        width: 100%;
+        margin: 0 0 30px;
+    }
+    /* service end  */
+
+
+    /* inoovative start */
+    .inoovative-left{
+        flex-basis: 100%;
+    }
+
+    .inoovative-left img{
+        width: 100%;
+    }
+
+    .inoovative-right{
+        flex-basis: 100%;
+    }
+
+    .inoovativeright-inner{
+        text-align: center;
+        margin: 30px 0 0 ;
+    }
+
+    .inoovativeright-inner h1{
+        font-size: 1.25rem;
+        width: 100%;
+        margin: 0 0 10px;
+    }
+
+    .inoovativeright-inner p{
+        font-size: 0.75rem;
+        line-height: 18px;
+        width: 90%;
+        margin: 0 auto 20px;
+    }
+    .tow-buttons{
+        justify-content: center;
+    }
+    /* inoovative end */
+
+
+    /* Technology start  */
+    .technology-left{
+        order: 2;
+        flex-basis: 100%;
+    }
+
+    .technology-left-inner{
+        text-align: center;
+        margin: 20px auto 0;
+    }
+
+    .technology-left-inner h1{
+        font-size: 1.25rem;
+        width: 100%;
+        margin: 0 auto 10px;
+    }
+
+    .technology-left-inner p{
+        font-size: 0.75rem;
+        line-height: 18px;
+        width: 90%;
+        margin: 0 auto 10px;
+    }
+
+    .watchvideo a{
+        font-size: 0.75rem;
+    }
+
+    .technology-right{
+        order: 1;
+        flex-basis: 100%;
+    }
+
+    .technology-right img{
+        width: 100%;
+    }
+    /* Technology end */
+
+
+    /* Expertise start */
+    .expertise-top-inner{
+        margin: 0 0 20px;
+    }
+    .expertise-top-inner h1{
+        font-size: 1.25rem;
+        width: 100%;
+        margin: 0 auto 10px;
+    }
+
+    .expertise-top-inner p{
+        font-size: 0.75rem;
+        line-height: 18px;
+        width: 100%;
+        margin: 0 auto 20px;
+    }
+    /* Expertise end */
+
+
+    /* managing start */
+    .managing-left{
+        order: 2;
+        flex-basis: 100%;
+    }
+
+    .managing-left-inner{
+        text-align: center;
+        margin: 20px 0 0;
+    }
+
+    .managing-left-inner h1{
+        font-size: 1.25rem;
+        width: 100%;
+    }
+
+    .managing-left-inner p{
+        font-size: 0.75rem;
+        line-height: 18px;
+        width: 90%;
+        margin: 0 auto 20px;
+    }
+
+    .managing-right{
+        order: 1;
+        flex-basis: 100%;
+    }
+
+    .managing-right img{
+        width: 100%;
+    }
+    /* managing end */
+
+
+    /* business start */
+    .business-inner h1{
+        font-size: 1.25rem;
+    }
+
+    .business-inner p{
+        font-size: 0.75rem;
+        line-height: 18px;
+        width: 100%;
+        margin: 0 auto 20px;
+    }
+    /* business end */
+
+
+    /* footer start */
+    .footer-inner{
+        text-align: center;
+    }
+
+    .inner-footer{
+        flex-basis: 100%;
+    }
+
+    .inner-footer li{
+        width: 80%;
+        margin: 0 auto;
+    }
+    /* footer end */
+}
